@@ -18,7 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class AuthenticationController {
 
-    // wstrzyknięcie zależności przez konstruktor
     private final AuthenticationService authenticationService;
 
     @PostMapping("/sign-up")
